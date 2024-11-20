@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and morty buscador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Buscador</h1>
+    <div id="filters">
+        <input type="text" id="name-filter" placeholder="Filtrar por nombre">
+        <select name="" id="status-filter">
+            <option value="">Filtrar por estado</option>
+            <option value="alive">Vivo</option>
+            <option value="dead">Muerto</option>
+            <option value="unknown">Estado desconocido</option>
+
+        </select>
+        <select name="" id="gender-filter">
+            <option value="">Filtrar por género</option>
+            <option value="female">Mujer</option>
+            <option value="male">Hombre</option>
+            <option value="unknown">Género desconocido</option>
+            <option value="genderless">Sin género</option>
+        </select>
+        
+
+    </div>
+    <div class="container">
+        <div id="characters"></div>
+        <!--personajes-->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
